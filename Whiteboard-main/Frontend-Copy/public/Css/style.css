@@ -1,0 +1,64 @@
+img{
+    height: 80px;
+    width: 50px;
+    margin-left: 10px;
+}
+ 
+.header {
+    background-color:white;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .nav {
+    flex-grow: 1;
+    text-align: right;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    margin-left: 40px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: rgba(10, 10, 95, 0.911);
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+  }
+  
+  .canvas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .canvas-controls {
+    margin-bottom: 10px;
+  }
+  
+  .canvas-controls button {
+    margin-right: 10px;
+  }
+  
